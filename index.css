@@ -1,0 +1,66 @@
+.Absolute-Center {
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 100vh;
+  }  
+
+body {
+    font-family: Arial;
+    background-color: rgb(245, 162, 176);
+}
+
+#quote-box {
+    max-width: 550px;
+    min-width: 300px;
+    padding: 35px;
+    margin: auto;
+    background: linear-gradient(pink, white);
+    box-shadow: 5px 5px 5px 0 grey;
+    border-radius: 15px;
+}
+
+#text {
+    font-size:28px;
+    color:black;
+    text-align:center;
+    font-family: fantasy;
+    font-weight: bolder;
+    font-style: italic;
+    border-top: 3px solid rebeccapurple;
+    border-bottom: 3px solid rebeccapurple;
+    padding: 35px 5px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px pink;
+}
+
+#author {
+    text-align: right;
+    font-size: 20px;
+    font-family:fantasy;    
+    font-weight: bold;
+    color: gray;
+    margin: 10px;
+    text-shadow: 1px 1px white;
+}
+
+.i-quote i {
+    font-size:40px;
+    color: rebeccapurple;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.footer i {
+    font-size:44px;
+    color: rebeccapurple;
+    padding: 0px;
+    border-radius: 10px;
+}
